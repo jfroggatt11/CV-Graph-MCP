@@ -1,10 +1,15 @@
 from dotenv import load_dotenv
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Body
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 import tiktoken
 import uvicorn
+import os
+from openai import OpenAI
+
+
+
 
 from graphrag.query.structured_search.global_search.search import GlobalSearch
 from graphrag.query.structured_search.local_search.search import LocalSearch
@@ -32,7 +37,7 @@ from services.llm import setup_llm_and_embedder
 _ = load_dotenv()
 
 settings = load_settings_from_yaml("settings.yml")
-
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 app = FastAPI()
 
 app.add_middleware(
@@ -42,6 +47,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Set the OpenAI API key (ensure your environment variable is set)
 
 llm, text_embedder = setup_llm_and_embedder(settings)
 token_encoder = tiktoken.get_encoding("cl100k_base")
@@ -110,7 +117,7 @@ def setup_global_search() -> GlobalSearch:
         token_encoder = tiktoken.encoding_for_model(settings.GRAPHRAG_LLM_MODEL)
     except KeyError:        
         token_encoder = tiktoken.get_encoding("cl100k_base")
-    
+
     context_builder = GlobalCommunityContext(
         community_reports=reports,
         communities=communities,
@@ -197,14 +204,14 @@ async def drift_search(query: str = Query(..., description="DRIFT search query")
     try:
         result = await drift_search_engine.asearch(query)
         response_dict = {
-            "response": convert_response_to_string(result.response["nodes"][0]["answer"]),
+            "response": convert_response_to_string(result.response.nodes[0].answer),
             "context_data": process_context_data(result.context_data),
             "context_text": result.context_text,
             "completion_time": result.completion_time,
             "llm_calls": result.llm_calls,
             "llm_calls_categories": result.llm_calls_categories,
-            "output_tokens":result.output_tokens,
-            "output_tokens_categories":result.output_tokens_categories,
+            "output_tokens": result.output_tokens,
+            "output_tokens_categories": result.output_tokens_categories,
             "prompt_tokens": result.prompt_tokens,            
             "prompt_tokens_categories": result.prompt_tokens_categories        
         }
@@ -226,8 +233,8 @@ async def global_search(query: str = Query(..., description="Search query for gl
             "completion_time": result.completion_time,
             "llm_calls": result.llm_calls,
             "llm_calls_categories": result.llm_calls_categories,
-            "output_tokens":result.output_tokens,
-            "output_tokens_categories":result.output_tokens_categories,
+            "output_tokens": result.output_tokens,
+            "output_tokens_categories": result.output_tokens_categories,
             "prompt_tokens": result.prompt_tokens,
             "prompt_tokens_categories": result.prompt_tokens_categories,
         }
@@ -246,8 +253,8 @@ async def local_search(query: str = Query(..., description="Search query for loc
             "completion_time": result.completion_time,
             "llm_calls": result.llm_calls,
             "llm_calls_categories": result.llm_calls_categories,
-            "output_tokens":result.output_tokens,
-            "output_tokens_categories":result.output_tokens_categories,
+            "output_tokens": result.output_tokens,
+            "output_tokens_categories": result.output_tokens_categories,
             "prompt_tokens": result.prompt_tokens,
             "prompt_tokens_categories": result.prompt_tokens_categories
         }
@@ -259,6 +266,48 @@ async def local_search(query: str = Query(..., description="Search query for loc
 async def status():
     return JSONResponse(content={"status": "Server is up and running"})
 
+# --- New Endpoint: Edit Cover Letter via Chat using OpenAI API ---
+@app.post("/cover-letter/edit")
+async def edit_cover_letter(payload: dict = Body(...)):
+    try:
+        # Extract conversation history and the current cover letter from the payload.
+        conversation = payload.get("conversation", [])
+        current_letter = payload.get("currentLetter", "")
+
+        # Construct the prompt.
+        prompt = (
+            "You are an expert cover letter editor. "
+            "Below is the current cover letter followed by a conversation history of requested edits. "
+            "Please generate an updated cover letter that incorporates all the feedback.\n\n"
+            "Current cover letter:\n"
+            f"{current_letter}\n\n"
+            "Conversation history:\n"
+            f"{'\n'.join(conversation)}\n\n"
+            "Updated cover letter:"
+        )
+
+        # For debugging: log the prompt
+        print("Generated Prompt:", prompt)
+
+        # Use the new OpenAI ChatCompletion API interface.
+        response = client.chat.completions.create(model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": "You are an expert cover letter editor."},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.0,
+        max_tokens=2000)
+
+        # Extract the updated cover letter text.
+        updated_letter = response.choices[0].message.content
+
+        # Debug log the updated letter.
+        print("Updated letter:", updated_letter)
+
+        return JSONResponse(content={"updatedLetter": updated_letter})
+    except Exception as e:
+        print("Error in /cover-letter/edit:", e)
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":    
     uvicorn.run(app, host="0.0.0.0", port=8000)

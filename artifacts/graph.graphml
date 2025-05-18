@@ -1,0 +1,358 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="JONAH FROGGATT" />
+    <node id="MILAN" />
+    <node id="ITALY" />
+    <node id="UK" />
+    <node id="LARGE LANGUAGE MODELS" />
+    <node id="KNOWLEDGE GRAPHS" />
+    <node id="GENERATIVE AI" />
+    <node id="GRAPH DATABASES" />
+    <node id="ADVANCED ANALYTICS" />
+    <node id="GRAPH TECHNOLOGIES" />
+    <node id="PYTHON" />
+    <node id="PANDAS" />
+    <node id="NUMPY" />
+    <node id="SCIKIT-LEARN" />
+    <node id="MATPLOTLIB" />
+    <node id="PYTORCH" />
+    <node id="MACHINE LEARNING" />
+    <node id="VISUALIZATION" />
+    <node id="LANGCHAIN" />
+    <node id="LLAMAINDEX" />
+    <node id="PINECONE" />
+    <node id="RETRIEVAL-AUGMENTED GENERATION" />
+    <node id="NEO4J" />
+    <node id="GRAPHRAG" />
+    <node id="POWER BI" />
+    <node id="DAX" />
+    <node id="POWER QUERY" />
+    <node id="DATA ANALYSIS" />
+    <node id="MICROSOFT POWER PLATFORM" />
+    <node id="POWER APPS" />
+    <node id="DATAVERSE" />
+    <node id="DATAFLOWS" />
+    <node id="POWER AUTOMATE" />
+    <node id="MICROSOFT AZURE" />
+    <node id="AZURE DEVOPS" />
+    <node id="CLOUD COMPUTING" />
+    <node id="AWS" />
+    <node id="AWS CLOUD PRACTITIONER" />
+    <node id="GIT" />
+    <node id="DEVOPS" />
+    <node id="DOCKER" />
+    <node id="MAJOR PROJECT ASSOCIATION" />
+    <node id="RISING STARS 2024/25" />
+    <node id="PDA ACADEMY" />
+    <node id="LEVEL 4 DATA ANALYST 2023" />
+    <node id="2021" />
+    <node id="2024/25" />
+    <node id="2023" />
+    <node id="STATISTICAL MODELLING" />
+    <node id="TECHNICAL LEADERSHIP" />
+    <node id="MENTORING TEAMS" />
+    <node id="PRODUCT MANAGEMENT" />
+    <node id="BID AND PROPOSAL EFFORTS" />
+    <node id="STAKEHOLDER ENGAGEMENT" />
+    <node id="PRESENTATIONS" />
+    <node id="CROSS-TEAM ALIGNMENT AND COLLABORATION" />
+    <node id="PROJECTING SUCCESS" />
+    <node id="ENVIRONMENT AGENCY" />
+    <node id="ROBERTSON CONSTRUCTION" />
+    <node id="GROSVENOR PROPERTY" />
+    <node id="HOMES ENGLAND" />
+    <node id="GLEEDS" />
+    <node id="OFFSHORE ENERGY DATA TRUST" />
+    <node id="PRAXIS FRAMEWORK" />
+    <node id="MARVIN" />
+    <node id="UNITED UTILITIES" />
+    <node id="POWER PLATFORM" />
+    <node id="QGIS" />
+    <node id="UN SUSTAINABLE DEVELOPMENT GOALS" />
+    <node id="EA REGIONS" />
+    <node id="CONSTRAINT REPORTING TOOL" />
+    <node id="ROBERTSON CUSTOMER EXPERIENCE KPI PROJECT" />
+    <node id="CUSTOMER SURVEYS" />
+    <node id="ROLE-BASED SECURITY" />
+    <node id="SUSTAINABILITY AND INNOVATION TEAM" />
+    <node id="ENERGY PERFORMANCE CERTIFICATES" />
+    <node id="FLOOD RISK" />
+    <node id="GROSVENOR FLOOD RISK FEASIBILITY STUDY" />
+    <node id="MACHINE LEARNING MODEL" />
+    <node id="PROJECT MANAGEMENT TEAM" />
+    <node id="RISK MANAGEMENT TEAM" />
+    <node id="HOMES ENGLAND DASHBOARD" />
+    <node id="PROJECT MANAGEMENT METRICS" />
+    <node id="NET ZERO TECHNOLOGY CENTRE" />
+    <node id="NORTH SEA" />
+    <node id="PLUG AND ABANDONMENT DASHBOARD" />
+    <node id="MONTE CARLO SIMULATION" />
+    <node id="LARGE LANGUAGE MODEL" />
+    <node id="NORTH SEA OPERATORS" />
+    <node id="STEERCO" />
+    <node id="OEDT MEMBERS" />
+    <node id="PLUG AND ABANDONMENT PROCESS" />
+    <node id="DATA POOLING" />
+    <node id="QUARTERLY STEERCO MEETINGS" />
+    <node id="DDR DATA" />
+    <node id="DIFFERENTIAL PRIVACY" />
+    <node id="TOTALENERGIES" />
+    <node id="OPENAI" />
+    <node id="END OF JOB REPORTS" />
+    <node id="END OF WELL REPORTS" />
+    <node id="END OF JOB AND END OF WELL REPORTS" />
+    <node id="LESSONS LEARNED TOOL" />
+    <node id="PROJECT DELIVERY INDUSTRY" />
+    <node id="GEN AI" />
+    <node id="VECTOR STORES" />
+    <node id="AGENTIC APPROACHES" />
+    <node id="UI" />
+    <node id="UNITED UTILITIES KPI AUTOMATION" />
+    <node id="SUPPLIER KPI" />
+    <node id="DATA TEAM (UNITED UTILITIES)" />
+    <node id="KPI OWNERS" />
+    <node id="UNITED KINGDOM" />
+    <node id="SUPPLIER DATA PORTAL" />
+    <node id="PROPOSAL (UNITED UTILITIES)" />
+    <node id="AUTHOR/CONSULTANT" />
+    <node id="ROLLS ROYCE SUBMARINES" />
+    <node id="PMO TEAM" />
+    <node id="DATA TEAM (ROLLS ROYCE SUBMARINES)" />
+    <node id="ROLLS ROYCE SCHEDULING PROJECTS" />
+    <node id="DUMMY DATA" />
+    <node id="LIVE DATA" />
+    <node id="SIR ROBERT MCALPINE" />
+    <node id="SIR ROBERT MCALPINE GRAPH ANALYSIS" />
+    <node id="FUTURE CONSULTANCY OPPORTUNITIES" />
+    <node id="MICROSOFT COPILOT" />
+    <node id="CHATBOT" />
+    <node id="SCHEDULE SUMMARISER" />
+    <node id="POWER QUERY / M" />
+    <node id="PROJECT PERFORMANCE TRACKING" />
+    <node id="LIGHTHOUSE 1" />
+    <node id="COLLEAGUE (LIGHTHOUSE 1)" />
+    <node id="TASK DELAY" />
+    <node id="PROJECT SCHEDULE SNAPSHOTS" />
+    <node id="FEATURE IMPORTANCE" />
+    <node id="GRAPH RAG" />
+    <node id="GRAPH DATABASE" />
+    <node id="CMS (SIR ROBERT MCALPINE)" />
+    <node id="CMS PROCESSES" />
+    <node id="GEN AI CHATBOT PROJECT" />
+    <node id="WORKSHOP AT UNITED UTILITIES" />
+    <node id="PRIMAVERA P6" />
+    <node id="UNITED UTILITIES OFFICES" />
+    <node id="RAG APPROACHES" />
+    <node id="NEXT PHASE (UNITED UTILITIES PROJECT)" />
+    <node id="FINANCIAL YEAR" />
+    <node id="DATASET SWAPPING" />
+    <node id="EFFORT/IMPACT MATRIX" />
+    <node id="APPROVAL (UNITED UTILITIES)" />
+    <node id="DATA SCIENTIST" />
+    <node id="DATA PROVIDERS" />
+    <node id="UNIVERSITY OF BRISTOL" />
+    <node id="MSCI MATHEMATICS" />
+    <node id="&#8220;OPTIMAL CONTROL OF QUEUEING NETWORKS&#8221;" />
+    <node id="CEO" />
+    <node id="JANUARY - MARCH 2025" />
+    <node id="DATA TEAM" />
+    <node id="CONTENT MANAGEMENT SYSTEM GRAPH AND CHATBOT" />
+    <node id="SOLE DEVELOPER" />
+    <node id="CLIENT" />
+    <node id="COLLEAGUE" />
+    <node id="PRIMARY DEVELOPER" />
+    <node id="SOLE CONSULTANT" />
+    <node id="EFFORT/IMPACT ASSESSMENT MATRIX" />
+    <node id="MICROSOFT" />
+    <edge source="JONAH FROGGATT" target="MILAN" />
+    <edge source="JONAH FROGGATT" target="ITALY" />
+    <edge source="JONAH FROGGATT" target="UK" />
+    <edge source="JONAH FROGGATT" target="LARGE LANGUAGE MODELS" />
+    <edge source="JONAH FROGGATT" target="KNOWLEDGE GRAPHS" />
+    <edge source="JONAH FROGGATT" target="GENERATIVE AI" />
+    <edge source="JONAH FROGGATT" target="GRAPH DATABASES" />
+    <edge source="JONAH FROGGATT" target="ADVANCED ANALYTICS" />
+    <edge source="JONAH FROGGATT" target="GRAPH TECHNOLOGIES" />
+    <edge source="MILAN" target="ITALY" />
+    <edge source="LARGE LANGUAGE MODELS" target="LANGCHAIN" />
+    <edge source="LARGE LANGUAGE MODELS" target="LLAMAINDEX" />
+    <edge source="LARGE LANGUAGE MODELS" target="RETRIEVAL-AUGMENTED GENERATION" />
+    <edge source="GRAPH DATABASES" target="NEO4J" />
+    <edge source="GRAPH DATABASES" target="GRAPHRAG" />
+    <edge source="GRAPH DATABASES" target="MARVIN" />
+    <edge source="GRAPH DATABASES" target="RAG APPROACHES" />
+    <edge source="PYTHON" target="PANDAS" />
+    <edge source="PYTHON" target="NUMPY" />
+    <edge source="PYTHON" target="SCIKIT-LEARN" />
+    <edge source="PYTHON" target="MATPLOTLIB" />
+    <edge source="PYTHON" target="PYTORCH" />
+    <edge source="PYTHON" target="MACHINE LEARNING" />
+    <edge source="PYTHON" target="PROJECTING SUCCESS" />
+    <edge source="PYTHON" target="LIGHTHOUSE 1" />
+    <edge source="PYTHON" target="CONTENT MANAGEMENT SYSTEM GRAPH AND CHATBOT" />
+    <edge source="SCIKIT-LEARN" target="MACHINE LEARNING" />
+    <edge source="SCIKIT-LEARN" target="LIGHTHOUSE 1" />
+    <edge source="MATPLOTLIB" target="VISUALIZATION" />
+    <edge source="PYTORCH" target="MACHINE LEARNING" />
+    <edge source="MACHINE LEARNING" target="STATISTICAL MODELLING" />
+    <edge source="LANGCHAIN" target="LARGE LANGUAGE MODEL" />
+    <edge source="PINECONE" target="RETRIEVAL-AUGMENTED GENERATION" />
+    <edge source="PINECONE" target="LARGE LANGUAGE MODEL" />
+    <edge source="GRAPHRAG" target="LARGE LANGUAGE MODEL" />
+    <edge source="GRAPHRAG" target="CONTENT MANAGEMENT SYSTEM GRAPH AND CHATBOT" />
+    <edge source="POWER BI" target="DAX" />
+    <edge source="POWER BI" target="POWER QUERY" />
+    <edge source="POWER BI" target="DATA ANALYSIS" />
+    <edge source="POWER BI" target="MICROSOFT POWER PLATFORM" />
+    <edge source="POWER BI" target="PROJECTING SUCCESS" />
+    <edge source="POWER BI" target="SCHEDULE SUMMARISER" />
+    <edge source="POWER BI" target="MICROSOFT" />
+    <edge source="MICROSOFT POWER PLATFORM" target="POWER APPS" />
+    <edge source="MICROSOFT POWER PLATFORM" target="DATAVERSE" />
+    <edge source="MICROSOFT POWER PLATFORM" target="POWER AUTOMATE" />
+    <edge source="POWER APPS" target="DATAVERSE" />
+    <edge source="POWER APPS" target="DATAFLOWS" />
+    <edge source="POWER APPS" target="PROJECTING SUCCESS" />
+    <edge source="POWER AUTOMATE" target="PROJECTING SUCCESS" />
+    <edge source="MICROSOFT AZURE" target="AZURE DEVOPS" />
+    <edge source="MICROSOFT AZURE" target="CLOUD COMPUTING" />
+    <edge source="AZURE DEVOPS" target="DEVOPS" />
+    <edge source="CLOUD COMPUTING" target="AWS" />
+    <edge source="AWS" target="AWS CLOUD PRACTITIONER" />
+    <edge source="AWS CLOUD PRACTITIONER" target="2021" />
+    <edge source="GIT" target="DEVOPS" />
+    <edge source="DEVOPS" target="DOCKER" />
+    <edge source="MAJOR PROJECT ASSOCIATION" target="RISING STARS 2024/25" />
+    <edge source="RISING STARS 2024/25" target="2024/25" />
+    <edge source="PDA ACADEMY" target="LEVEL 4 DATA ANALYST 2023" />
+    <edge source="LEVEL 4 DATA ANALYST 2023" target="2023" />
+    <edge source="TECHNICAL LEADERSHIP" target="MENTORING TEAMS" />
+    <edge source="PRODUCT MANAGEMENT" target="BID AND PROPOSAL EFFORTS" />
+    <edge source="STAKEHOLDER ENGAGEMENT" target="PRESENTATIONS" />
+    <edge source="STAKEHOLDER ENGAGEMENT" target="CROSS-TEAM ALIGNMENT AND COLLABORATION" />
+    <edge source="PROJECTING SUCCESS" target="ENVIRONMENT AGENCY" />
+    <edge source="PROJECTING SUCCESS" target="ROBERTSON CONSTRUCTION" />
+    <edge source="PROJECTING SUCCESS" target="GROSVENOR PROPERTY" />
+    <edge source="PROJECTING SUCCESS" target="HOMES ENGLAND" />
+    <edge source="PROJECTING SUCCESS" target="GLEEDS" />
+    <edge source="PROJECTING SUCCESS" target="OFFSHORE ENERGY DATA TRUST" />
+    <edge source="PROJECTING SUCCESS" target="PRAXIS FRAMEWORK" />
+    <edge source="PROJECTING SUCCESS" target="MARVIN" />
+    <edge source="PROJECTING SUCCESS" target="UNITED UTILITIES" />
+    <edge source="PROJECTING SUCCESS" target="POWER PLATFORM" />
+    <edge source="PROJECTING SUCCESS" target="QGIS" />
+    <edge source="PROJECTING SUCCESS" target="AUTHOR/CONSULTANT" />
+    <edge source="PROJECTING SUCCESS" target="UNITED KINGDOM" />
+    <edge source="PROJECTING SUCCESS" target="DATA SCIENTIST" />
+    <edge source="PROJECTING SUCCESS" target="ROLLS ROYCE SUBMARINES" />
+    <edge source="PROJECTING SUCCESS" target="SIR ROBERT MCALPINE" />
+    <edge source="PROJECTING SUCCESS" target="JANUARY - MARCH 2025" />
+    <edge source="ENVIRONMENT AGENCY" target="UN SUSTAINABLE DEVELOPMENT GOALS" />
+    <edge source="ENVIRONMENT AGENCY" target="EA REGIONS" />
+    <edge source="ENVIRONMENT AGENCY" target="CONSTRAINT REPORTING TOOL" />
+    <edge source="GROSVENOR PROPERTY" target="SUSTAINABILITY AND INNOVATION TEAM" />
+    <edge source="GROSVENOR PROPERTY" target="ENERGY PERFORMANCE CERTIFICATES" />
+    <edge source="GROSVENOR PROPERTY" target="FLOOD RISK" />
+    <edge source="HOMES ENGLAND" target="PROJECT MANAGEMENT TEAM" />
+    <edge source="HOMES ENGLAND" target="RISK MANAGEMENT TEAM" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="NET ZERO TECHNOLOGY CENTRE" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="NORTH SEA" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="PLUG AND ABANDONMENT DASHBOARD" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="MONTE CARLO SIMULATION" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="LARGE LANGUAGE MODEL" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="NORTH SEA OPERATORS" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="STEERCO" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="OEDT MEMBERS" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="PLUG AND ABANDONMENT PROCESS" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="DATA POOLING" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="QUARTERLY STEERCO MEETINGS" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="DATA SCIENTIST" />
+    <edge source="OFFSHORE ENERGY DATA TRUST" target="DATA PROVIDERS" />
+    <edge source="MARVIN" target="PROJECT DELIVERY INDUSTRY" />
+    <edge source="MARVIN" target="GEN AI" />
+    <edge source="MARVIN" target="VECTOR STORES" />
+    <edge source="MARVIN" target="AGENTIC APPROACHES" />
+    <edge source="MARVIN" target="UI" />
+    <edge source="MARVIN" target="DATA SCIENTIST" />
+    <edge source="UNITED UTILITIES" target="DATA TEAM (UNITED UTILITIES)" />
+    <edge source="UNITED UTILITIES" target="KPI OWNERS" />
+    <edge source="UNITED UTILITIES" target="UNITED UTILITIES KPI AUTOMATION" />
+    <edge source="UNITED UTILITIES" target="UNITED KINGDOM" />
+    <edge source="UNITED UTILITIES" target="SUPPLIER DATA PORTAL" />
+    <edge source="UNITED UTILITIES" target="PROPOSAL (UNITED UTILITIES)" />
+    <edge source="ROBERTSON CUSTOMER EXPERIENCE KPI PROJECT" target="CUSTOMER SURVEYS" />
+    <edge source="ROBERTSON CUSTOMER EXPERIENCE KPI PROJECT" target="ROLE-BASED SECURITY" />
+    <edge source="GROSVENOR FLOOD RISK FEASIBILITY STUDY" target="MACHINE LEARNING MODEL" />
+    <edge source="HOMES ENGLAND DASHBOARD" target="PROJECT MANAGEMENT METRICS" />
+    <edge source="PLUG AND ABANDONMENT DASHBOARD" target="DDR DATA" />
+    <edge source="PLUG AND ABANDONMENT DASHBOARD" target="DIFFERENTIAL PRIVACY" />
+    <edge source="MONTE CARLO SIMULATION" target="TOTALENERGIES" />
+    <edge source="LARGE LANGUAGE MODEL" target="OPENAI" />
+    <edge source="LARGE LANGUAGE MODEL" target="END OF JOB REPORTS" />
+    <edge source="LARGE LANGUAGE MODEL" target="END OF WELL REPORTS" />
+    <edge source="LARGE LANGUAGE MODEL" target="END OF JOB AND END OF WELL REPORTS" />
+    <edge source="LARGE LANGUAGE MODEL" target="LESSONS LEARNED TOOL" />
+    <edge source="STEERCO" target="DATA SCIENTIST" />
+    <edge source="STEERCO" target="DATA PROVIDERS" />
+    <edge source="VECTOR STORES" target="RAG APPROACHES" />
+    <edge source="AGENTIC APPROACHES" target="RAG APPROACHES" />
+    <edge source="UNITED UTILITIES KPI AUTOMATION" target="SUPPLIER KPI" />
+    <edge source="UNITED UTILITIES KPI AUTOMATION" target="WORKSHOP AT UNITED UTILITIES" />
+    <edge source="UNITED KINGDOM" target="ROLLS ROYCE SUBMARINES" />
+    <edge source="UNITED KINGDOM" target="SIR ROBERT MCALPINE" />
+    <edge source="UNITED KINGDOM" target="UNIVERSITY OF BRISTOL" />
+    <edge source="SUPPLIER DATA PORTAL" target="NEXT PHASE (UNITED UTILITIES PROJECT)" />
+    <edge source="PROPOSAL (UNITED UTILITIES)" target="APPROVAL (UNITED UTILITIES)" />
+    <edge source="AUTHOR/CONSULTANT" target="SCHEDULE SUMMARISER" />
+    <edge source="AUTHOR/CONSULTANT" target="LIGHTHOUSE 1" />
+    <edge source="AUTHOR/CONSULTANT" target="SIR ROBERT MCALPINE GRAPH ANALYSIS" />
+    <edge source="AUTHOR/CONSULTANT" target="GEN AI CHATBOT PROJECT" />
+    <edge source="ROLLS ROYCE SUBMARINES" target="PMO TEAM" />
+    <edge source="ROLLS ROYCE SUBMARINES" target="DATA TEAM (ROLLS ROYCE SUBMARINES)" />
+    <edge source="ROLLS ROYCE SUBMARINES" target="ROLLS ROYCE SCHEDULING PROJECTS" />
+    <edge source="ROLLS ROYCE SUBMARINES" target="DUMMY DATA" />
+    <edge source="ROLLS ROYCE SUBMARINES" target="LIVE DATA" />
+    <edge source="ROLLS ROYCE SUBMARINES" target="SCHEDULE SUMMARISER" />
+    <edge source="ROLLS ROYCE SUBMARINES" target="LIGHTHOUSE 1" />
+    <edge source="ROLLS ROYCE SUBMARINES" target="DATA TEAM" />
+    <edge source="ROLLS ROYCE SCHEDULING PROJECTS" target="SCHEDULE SUMMARISER" />
+    <edge source="ROLLS ROYCE SCHEDULING PROJECTS" target="LIGHTHOUSE 1" />
+    <edge source="ROLLS ROYCE SCHEDULING PROJECTS" target="PRIMAVERA P6" />
+    <edge source="DUMMY DATA" target="LIVE DATA" />
+    <edge source="DUMMY DATA" target="DATASET SWAPPING" />
+    <edge source="LIVE DATA" target="DATASET SWAPPING" />
+    <edge source="SIR ROBERT MCALPINE" target="SIR ROBERT MCALPINE GRAPH ANALYSIS" />
+    <edge source="SIR ROBERT MCALPINE" target="FUTURE CONSULTANCY OPPORTUNITIES" />
+    <edge source="SIR ROBERT MCALPINE" target="CONTENT MANAGEMENT SYSTEM GRAPH AND CHATBOT" />
+    <edge source="SIR ROBERT MCALPINE GRAPH ANALYSIS" target="GRAPH RAG" />
+    <edge source="SIR ROBERT MCALPINE GRAPH ANALYSIS" target="CMS (SIR ROBERT MCALPINE)" />
+    <edge source="SIR ROBERT MCALPINE GRAPH ANALYSIS" target="CHATBOT" />
+    <edge source="MICROSOFT COPILOT" target="CHATBOT" />
+    <edge source="MICROSOFT COPILOT" target="CONTENT MANAGEMENT SYSTEM GRAPH AND CHATBOT" />
+    <edge source="MICROSOFT COPILOT" target="MICROSOFT" />
+    <edge source="SCHEDULE SUMMARISER" target="POWER QUERY / M" />
+    <edge source="SCHEDULE SUMMARISER" target="PROJECT PERFORMANCE TRACKING" />
+    <edge source="SCHEDULE SUMMARISER" target="PRIMAVERA P6" />
+    <edge source="SCHEDULE SUMMARISER" target="DATA TEAM" />
+    <edge source="SCHEDULE SUMMARISER" target="SOLE DEVELOPER" />
+    <edge source="LIGHTHOUSE 1" target="COLLEAGUE (LIGHTHOUSE 1)" />
+    <edge source="LIGHTHOUSE 1" target="TASK DELAY" />
+    <edge source="LIGHTHOUSE 1" target="PROJECT SCHEDULE SNAPSHOTS" />
+    <edge source="LIGHTHOUSE 1" target="FEATURE IMPORTANCE" />
+    <edge source="LIGHTHOUSE 1" target="CLIENT" />
+    <edge source="LIGHTHOUSE 1" target="COLLEAGUE" />
+    <edge source="LIGHTHOUSE 1" target="PRIMARY DEVELOPER" />
+    <edge source="GRAPH RAG" target="GRAPH DATABASE" />
+    <edge source="GRAPH DATABASE" target="CMS (SIR ROBERT MCALPINE)" />
+    <edge source="CMS (SIR ROBERT MCALPINE)" target="CMS PROCESSES" />
+    <edge source="CMS PROCESSES" target="EFFORT/IMPACT MATRIX" />
+    <edge source="GEN AI CHATBOT PROJECT" target="RAG APPROACHES" />
+    <edge source="WORKSHOP AT UNITED UTILITIES" target="UNITED UTILITIES OFFICES" />
+    <edge source="NEXT PHASE (UNITED UTILITIES PROJECT)" target="FINANCIAL YEAR" />
+    <edge source="DATA SCIENTIST" target="CEO" />
+    <edge source="UNIVERSITY OF BRISTOL" target="MSCI MATHEMATICS" />
+    <edge source="MSCI MATHEMATICS" target="&#8220;OPTIMAL CONTROL OF QUEUEING NETWORKS&#8221;" />
+    <edge source="CONTENT MANAGEMENT SYSTEM GRAPH AND CHATBOT" target="SOLE CONSULTANT" />
+    <edge source="CONTENT MANAGEMENT SYSTEM GRAPH AND CHATBOT" target="EFFORT/IMPACT ASSESSMENT MATRIX" />
+  </graph>
+</graphml>

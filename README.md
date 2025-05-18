@@ -18,7 +18,7 @@ python -m venv venv
 ```
 
 ```bash
-source venv/bin/activate # for Linux
+pyt # for Linux
 venv\Scripts\activate # for Windows
 ```
 
