@@ -38,10 +38,17 @@ from graphrag.query.indexer_adapters import (
     read_indexer_communities,
 )
 
+# Additional import for the OpenAI client
+from openai import OpenAI
+
 # --------------------------------------------------
 # 1. Bootstrap environment & data loading
 # --------------------------------------------------
 load_dotenv()
+
+# Initialize OpenAI client for cover letter editing
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 settings = load_settings_from_yaml("settings.yml")
 
 # Initialize LLM & embedder
@@ -331,6 +338,45 @@ async def finalize_cover_letter(draft: str, suggestions: List[str]) -> Dict[str,
     # TODO: implement
     return {"final_letter": ""}
 
+# New MCP tool for editing a cover letter via OpenAI Chat API
+@mcp.tool(description="Edit a cover letter via chat using OpenAI API")
+async def edit_cover_letter(conversation: List[str], current_letter: str) -> Dict[str, str]:
+    # Construct the prompt for the cover letter editor
+    prompt = (
+        "You are an expert cover letter editor. "
+        "Below is the current cover letter followed by a conversation history of requested edits. "
+        "Please generate an updated cover letter that incorporates all the feedback.\n\n"
+        "Current cover letter:\n"
+        f"{current_letter}\n\n"
+        "Conversation history:\n"
+        f"{ '\n'.join(conversation) }\n\n"
+        "Updated cover letter:"
+    )
+    # For debugging: log the prompt
+    print("Generated prompt:", prompt)
+    # Use OpenAI ChatCompletion API to edit the cover letter
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": "You are an expert cover letter editor."},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.0,
+        max_tokens=2000
+    )
+    updated_letter = response.choices[0].message.content
+    # Debug log the updated letter
+    print("Updated letter:", updated_letter)
+    return {"updatedLetter": updated_letter}
+
+# Proxy route for the edit cover letter tool
+@app.post("/mcp/edit_cover_letter")
+async def proxy_edit_cover_letter(request: Request):
+    payload = await request.json()
+    conversation = payload.get("conversation", [])
+    current_letter = payload.get("currentLetter", "")
+    # Call the edit_cover_letter tool and return its result
+    return await edit_cover_letter(conversation=conversation, current_letter=current_letter)
 
 # Mount the Streamable HTTP transport under /mcp with CORS
 mcp_app = mcp.streamable_http_app()
